@@ -1,0 +1,35 @@
+body{
+
+   text-align: center;
+}
+.all-items{
+    border-radius: 7px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px 10px silver;
+}
+.timer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /*style start*/
+    background: none;
+    width: 200px;
+    border-radius: 7px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px 10px silver;
+    cursor: pointer;
+}
+.down{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%,-100%);
+    border-radius: 7px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px 10px silver;
+}
+span{
+    font-size: 50px;
+}
